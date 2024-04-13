@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trimmer - Photo Splitter</title>
-  <link rel="stylesheet" href="style.css">
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trimmer</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0svjQEgQWvagre9ul9+7T8wW1VHwH2+gUgIlUOzAW onEU6i6IGvEZcIvq+qINpnC75" crossorigin="anonymous">
+</head>
 <body>
-  <div class="container">
-    <h1>Trimmer</h1>
-    <p>Select a portion of your image to split and combine the remaining parts.</p>
-    <div class="image-upload">
-      <input type="file" id="image-upload-input" accept="image/*">
-      <label for="image-upload-input">Upload Image</label>
+    <div class="container mt-3">
+        <h1>Trimmer</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="image-upload">
+                    <label for="image-input">Upload Image</label>
+                    <input type="file" id="image-input" accept="image/*">
+                    <img id="uploaded-image" alt="Uploaded Image">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="splitting-controls">
+                    <h3>Splitting Options</h3>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="split-type" id="split-horizontal" value="horizontal" checked>
+                        <label class="form-check-label" for="split-horizontal">Horizontal</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="split-type" id="split-vertical" value="vertical">
+                        <label class="form-check-label" for="split-vertical">Vertical</label>
+                    </div>
+                    <button class="btn btn-primary mt-3" id="split-button">Split</button>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="image-wrapper">
-      <img id="uploaded-image" alt="Uploaded Image">
-      <div class="selection-overlay"></div>
-    </div>
-    <div class="splitting-controls">
-      <button id="split-horizontal">Split Horizontally</button>
-      <button id="split-vertical">Split Vertically</button>
-    </div>
-  </div>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-OgwmRWzBGYk/USWyOoAoGkbrenkLCbroU+lUNhM6wK/RxLt4zCyHain1xvfu+eOG" crossorigin="anonymous"></script>
 </body>
 </html>

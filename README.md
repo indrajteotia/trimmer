@@ -15,7 +15,7 @@ It is open for contributions and help in development of the application.
 
 
 ## Concept
-
+The concept is to split image and then recombine the splitted images.
 - Step 1: Uploading image
 ![Before](./images/before.jpg)
 
