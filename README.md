@@ -16,7 +16,15 @@ It is open for contributions and help in development of the application.
 
 ## Concept
 
-![App Concept](https://via.placeholder.com/300x300?text=App+Concept+Here)
+- Step 1: Uploading image
+![Before](./before.jpg)
+
+- Step 2: Selection of image
+![Mid](./mid.jpg)
+
+- Step 3: Generate image
+![After](./after.jpg)
+
 ## Contributing
 
 Contributions are always welcome!
