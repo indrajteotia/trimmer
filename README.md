@@ -1,6 +1,7 @@
 
 # Trimmer
 Try here: https://indrajteotia.github.io/trimmer/
+
 Trimmer is a user-friendly web application for trimming a portion of photo.
 
 It is open for contributions and help in development of the application.
