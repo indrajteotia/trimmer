@@ -17,13 +17,13 @@ It is open for contributions and help in development of the application.
 ## Concept
 
 - Step 1: Uploading image
-![Before](./before.jpg)
+![Before](./images/before.jpg)
 
 - Step 2: Selection of image
-![Mid](./mid.jpg)
+![Mid](./images/mid.jpg)
 
 - Step 3: Generate image
-![After](./after.jpg)
+![After](./images/after.jpg)
 
 ## Contributing
 
