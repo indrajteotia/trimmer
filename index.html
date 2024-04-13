@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trimmer - Photo Splitter</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <div class="container">
+    <h1>Trimmer</h1>
+    <p>Select a portion of your image to split and combine the remaining parts.</p>
+    <div class="image-upload">
+      <input type="file" id="image-upload-input" accept="image/*">
+      <label for="image-upload-input">Upload Image</label>
+    </div>
+    <div class="image-wrapper">
+      <img id="uploaded-image" alt="Uploaded Image">
+      <div class="selection-overlay"></div>
+    </div>
+    <div class="splitting-controls">
+      <button id="split-horizontal">Split Horizontally</button>
+      <button id="split-vertical">Split Vertically</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
